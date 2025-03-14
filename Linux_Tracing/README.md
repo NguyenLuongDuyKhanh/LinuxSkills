@@ -1,1 +1,2 @@
+strace 
 https://docs.kernel.org/trace/index.html
