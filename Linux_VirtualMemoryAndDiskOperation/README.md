@@ -4,6 +4,9 @@
 df -h
 ncdu
 
+# Why calling RAM
+There is no difference if we read/write from anywhere in the memory
+
 # Check block and file system style
 ## ls 
     pi@raspberrypi:~/workspace $ ls -l 
