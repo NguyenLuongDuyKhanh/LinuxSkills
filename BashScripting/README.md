@@ -109,5 +109,35 @@ if test -e filename; then
     echo "File exists!"
 fi
 
+## Command dpkg 
+Check which package a command belongs to with different tools depending on your distro:
+```
+dpkg -S $(which md5sum)
+```
+Output example
+```
+coreutils: /usr/bin/md5sum
+```
+
+## Command env
+Run a command with a modified environment:
+```
+env VAR=value command
+```
+
+Example:
+```
+env PATH=/tmp ./myscript.sh
+```
+→ runs myscript.sh with a temporary PATH, without changing your shell’s environment.
+
+Clear environment and run a command in a “clean” environment:
+```
+env -i command
+```
+
 ## References
 https://tldp.org/LDP/abs/html/
+
+## TODO
+- learn more command, packages such as coreutil

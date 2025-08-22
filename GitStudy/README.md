@@ -26,3 +26,6 @@ Choosing between SSH and HTTPS depends on your workflow requirements and setup p
 * Choose HTTPS if:
    - You want a straightforward setup without generating keys.
    - You’re working in environments that block SSH traffic (e.g., corporate networks with firewalls).
+
+# TODO
+learn index.lock

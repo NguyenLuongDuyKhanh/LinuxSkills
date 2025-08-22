@@ -69,3 +69,15 @@ The directives #APP #NO_APP is meant to surround the inline asm code to separate
 https://developer.arm.com/documentation/100076/0100/Instruction-Set-Overview/Overview-of-AArch32-state/Registers-in-AArch32-state?lang=en
 https://developer.arm.com/documentation/dui0801/l/Overview-of-AArch64-state/Registers-in-AArch64-state
 https://developer.arm.com/documentation/den0013/d/Introduction-to-Assembly-Language/Introduction-to-the-GNU-Assembler/Assembler-directives
+
+## TODO:
+priviledge asm instructions
+how critical registers are opcupied by the os
+User programs are allowed to use a wide range of instructions to perform essential tasks: (a youtube video)
+    - Move data
+    - Copy data
+    - Arithmetic Operation
+    - Floating Point Operations
+    - Bitwise Operations
+    - Condition
+    - loops
