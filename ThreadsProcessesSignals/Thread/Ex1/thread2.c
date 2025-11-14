@@ -4,6 +4,8 @@
 #include <pthread.h>
 
 void *thread_function(void *arg);
+
+/* Share resource*/
 char message[] = "Hello world";
 
 int main() {
@@ -11,7 +13,7 @@ int main() {
     pthread_t a_thread;
     void *thread_result;
     
-    res = pthread_create(&a_thread, NUL, thread_function, (void*)message);
+    res = pthread_create(&a_thread, NULL, thread_function, (void*)message);
     if (res != 0) {
         perror("Thread creation failed");
         exit(EXIT_FAILURE);

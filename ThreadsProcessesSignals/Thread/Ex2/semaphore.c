@@ -11,7 +11,7 @@ sem_t bin_sem;
 #define WORK_SIZE 1024
 char work_area[WORK_SIZE];
 
-int main_semaphore() {
+int main() {
     int res;
     pthread_t a_thread;
     void *thread_result;
@@ -48,7 +48,7 @@ int main_semaphore() {
 void *thread_function(void *arg) {
     sem_wait(&bin_sem);
     while(strncmp("end", work_area, 3) != 0) {
-        printf("You input %d characters\n", strlen(work_area) -1);
+        printf("You input %ld characters\n", strlen(work_area) -1);
         sem_wait(&bin_sem);
     }
     pthread_exit(NULL);

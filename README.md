@@ -13,3 +13,7 @@ https://www.cyberciti.biz/faq/stress-test-linux-unix-server-with-stress-ng/
 # Implement soft/hard interupts and traps
 # Memory layer
 Nếu stack hoặc heap không đủ thì sao, chiến lược expand ntn
+
+# TODO
+semaphore/lock between process
+linux process state

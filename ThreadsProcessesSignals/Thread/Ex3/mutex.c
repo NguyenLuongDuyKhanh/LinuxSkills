@@ -6,7 +6,7 @@ void *functionC();
 pthread_mutex_t mutex1 = PTHREAD_MUTEX_INITIALIZER;
 int counter = 0;
 
-void main_mutex() {
+void main() {
     int rc1, rc2;
     pthread_t thread1, thread2;
     
@@ -30,11 +30,11 @@ void main_mutex() {
 void *functionC() {
     int i = 0;
     int tmp = 0;
-    //pthread_mutex_lock(&mutex1);
+    pthread_mutex_lock(&mutex1);
     counter++;
-    for (i=0; i<100000; i++) {
+    for (i=0; i<1000; i++) {
         tmp += 1;
     }
     printf("Counter value: %d\n", counter);
-    //pthread_mutex_unlock(&mutex1);
+    pthread_mutex_unlock(&mutex1);
 }

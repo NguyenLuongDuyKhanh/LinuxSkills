@@ -1,0 +1,1 @@
+The system function will create a sub process to execute the calling function, thereby the calling function has difference PID than the origin, also the following instruction will be called.

@@ -1,0 +1,2 @@
+After execpl, the whole memory of the current process is replaced by the calling program, in this case is either /usr/bin/ps or sampleUltility
+That also meant the remaining instruction of the program will not be executed. As show in Ex2_execlp.png, both programs run in just one process and the instructions after execlp (the 'sleep' things) were not executed.
