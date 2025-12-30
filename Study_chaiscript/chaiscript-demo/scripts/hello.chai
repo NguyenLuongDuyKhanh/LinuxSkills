@@ -1,0 +1,3 @@
+print("Hello from ChaiScript!");
+var r = add(10, 32);
+print("add(10,32) = " + to_string(r));

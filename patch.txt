@@ -1,0 +1,33 @@
+diff --git a/AI_Study/README.md b/AI_Study/README.md
+index 79e0100..d8db7f6 100644
+--- a/AI_Study/README.md
++++ b/AI_Study/README.md
+@@ -5,3 +5,13 @@ Which command is use to show memory of a program
+ Explain git pull rebase/fast-forward/merge
+ 
+ ## Study3
++Where on file system trash folder is mounted in ubuntu. Does it mean if I delete a file in external disk, that file will be sent to Trash folder and still consume space?
++
++## Study4
++What is disk image. What is disk partition, what is unallocated disk.
++
++## Study5
++What are file systems? What different between NTFS, ext4, FAT32,...
++
++## Study6
++What happens under the hood when I move a file to another place with in 1 partition, 2 different partition in 1 physical disk and in 2 different physical disks.
+\ No newline at end of file
+diff --git a/AppsTools/PackageManagement/README.md b/AppsTools/PackageManagement/README.md
+index fc71e22..a129865 100644
+--- a/AppsTools/PackageManagement/README.md
++++ b/AppsTools/PackageManagement/README.md
+@@ -1,2 +1,8 @@
++## Study 1
++How to develop a deb package for other to install.
++
++## Study 2
++How apt package manager work. List other apt like command and their usage.
++
+ ## TODO
+ rpm source code
+\ No newline at end of file
